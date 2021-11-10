@@ -144,6 +144,7 @@ class Simulation:
         ax.set_ylabel("Percentage of country still above water [%]")
         ax.set_title("Climate apocalypse")
         fig.show()
+        # fig.savefig("../figs/sea_levels.png", dpi=300)
 
     def run(self):
 
@@ -197,6 +198,7 @@ class Simulation:
 
         fig.tight_layout()
         fig.show()
+        # fig.savefig("../figs/sea_map.png", dpi=300)
 
 
 def intro():
